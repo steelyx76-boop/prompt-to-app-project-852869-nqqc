@@ -1,0 +1,247 @@
+{
+  "projectName": "Mon Application",
+  "description": "Application générée: ",
+  "theme": {
+    "primaryColor": "#667eea",
+    "secondaryColor": "#764ba2",
+    "backgroundColor": "#F9FAFB",
+    "textColor": "#111827"
+  },
+  "screens": [
+    {
+      "id": "home",
+      "name": "Accueil",
+      "title": "Mon Application",
+      "hasNavBar": true,
+      "components": [
+        {
+          "type": "Text",
+          "props": {
+            "content": "Mon Application",
+            "style": {
+              "fontSize": 28,
+              "fontWeight": "bold",
+              "color": "#111827",
+              "margin": 16,
+              "textAlign": "center"
+            }
+          }
+        },
+        {
+          "type": "Card",
+          "props": {
+            "style": {
+              "padding": 20,
+              "margin": 16,
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 12
+            }
+          },
+          "children": [
+            {
+              "type": "Text",
+              "props": {
+                "content": "🎨 Design Moderne",
+                "style": {
+                  "fontSize": 18,
+                  "fontWeight": "600",
+                  "color": "#667eea",
+                  "marginBottom": 8
+                }
+              }
+            },
+            {
+              "type": "Text",
+              "props": {
+                "content": "Interface élégante et intuitive",
+                "style": {
+                  "fontSize": 14,
+                  "color": "#6B7280"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "Card",
+          "props": {
+            "style": {
+              "padding": 20,
+              "margin": 16,
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 12
+            }
+          },
+          "children": [
+            {
+              "type": "Text",
+              "props": {
+                "content": "⚡ Performance",
+                "style": {
+                  "fontSize": 18,
+                  "fontWeight": "600",
+                  "color": "#667eea",
+                  "marginBottom": 8
+                }
+              }
+            },
+            {
+              "type": "Text",
+              "props": {
+                "content": "Chargement rapide et optimisé",
+                "style": {
+                  "fontSize": 14,
+                  "color": "#6B7280"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "Card",
+          "props": {
+            "style": {
+              "padding": 20,
+              "margin": 16,
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 12
+            }
+          },
+          "children": [
+            {
+              "type": "Text",
+              "props": {
+                "content": "📱 Responsive",
+                "style": {
+                  "fontSize": 18,
+                  "fontWeight": "600",
+                  "color": "#667eea",
+                  "marginBottom": 8
+                }
+              }
+            },
+            {
+              "type": "Text",
+              "props": {
+                "content": "Compatible tous appareils",
+                "style": {
+                  "fontSize": 14,
+                  "color": "#6B7280"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "label": "Commencer",
+            "onPress": "navigate:profile",
+            "style": {
+              "backgroundColor": "#667eea",
+              "padding": 16,
+              "borderRadius": 12,
+              "margin": 16
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "profile",
+      "name": "Profil",
+      "title": "Mon Profil",
+      "hasNavBar": true,
+      "components": [
+        {
+          "type": "View",
+          "props": {
+            "style": {
+              "padding": 16,
+              "alignItems": "center"
+            }
+          },
+          "children": [
+            {
+              "type": "Text",
+              "props": {
+                "content": "Mon Profil",
+                "style": {
+                  "fontSize": 24,
+                  "fontWeight": "bold",
+                  "marginBottom": 24,
+                  "textAlign": "center"
+                }
+              }
+            },
+            {
+              "type": "Card",
+              "props": {
+                "style": {
+                  "width": "100%",
+                  "padding": 20,
+                  "marginBottom": 16
+                }
+              },
+              "children": [
+                {
+                  "type": "Text",
+                  "props": {
+                    "content": "⚙️ Paramètres",
+                    "style": {
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "Card",
+              "props": {
+                "style": {
+                  "width": "100%",
+                  "padding": 20,
+                  "marginBottom": 16
+                }
+              },
+              "children": [
+                {
+                  "type": "Text",
+                  "props": {
+                    "content": "🔔 Notifications",
+                    "style": {
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "Card",
+              "props": {
+                "style": {
+                  "width": "100%",
+                  "padding": 20
+                }
+              },
+              "children": [
+                {
+                  "type": "Text",
+                  "props": {
+                    "content": "🔒 Confidentialité",
+                    "style": {
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
